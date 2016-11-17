@@ -89,6 +89,7 @@ support simultaneous use of all features; the I2C configuration was modified.
 ## Xively CPM operation 
 
 Xively CPM provides basic monitoring and control of the demo devices. 
+
 1. Go to: https://app.xively.com/login.
 2. Use the following CPM Credentials:
     * account_id: aaaa1111-33c0-de23-82b4-1111aaaa11aa 
