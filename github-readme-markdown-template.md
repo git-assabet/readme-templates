@@ -32,8 +32,7 @@ list all tools, configurations, licenses, etc needed for this project
 
 - TI Code Composer Studio
 - TI CC3200 SDK
-- The WIFI Credentials for each device must be configured for a local WIFI network.
-See the section: Flash update, WIFI Credentials
+- The WIFI Credentials for each device must be configured for a local WIFI network. See the section: Updating flash, step: Configure WIFI credentials.
 - In the `.\xively_demo\main.h` file, set the following parameters:
     ```
     #define SSID
@@ -158,13 +157,11 @@ Serial port settings:
     No flow control
 ```
 
-[comment]: <> (This is a comment, it will not be included in the output as long as there is a blank line above the comment block)
-
 ### Notes
 
 2015/12/22(R1) : Added support to LibXively to use SimpleLink's secure socket implementation, rather than Xively's SSL library.  Support is only provided for a single Root CA certificate with a fixed filename "/cert/halo_temp_cert.der".
 
-2015/11/20(R1) : Added "xtest_malloc.c" to analyze heap usage. \
+2015/11/20(R1) : Added "xtest_malloc.c" to analyze heap usage.  
 Bug Fix: Publish messages in-flight count must be cleared prior to connect/reconnect.
 
 2015/11/19(R1) : This release is functionally equivalent to that of 2015/10/19; but with support for release via Github.
