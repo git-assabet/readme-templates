@@ -160,7 +160,7 @@ Serial port settings:
 
 ### Notes
 
-2015/12/22(R1) : Added support to LibXively to use SimpleLink's secure socket implementation, rather than Xively's SSL library.  Support is only provided for a single Root CA certificate with a fixed filename "/cert/halo_temp_cert.der".
+2015/12/22(R1) : Added support to LibXively to use SimpleLink's secure socket implementation, rather than Xively's SSL library.  Support is only provided for a single Root CA certificate with a fixed filename `/cert/halo_temp_cert.der`.
 
 2015/11/20(R1) : Added "xtest_malloc.c" to analyze heap usage.  
 Bug Fix: Publish messages in-flight count must be cleared prior to connect/reconnect.
