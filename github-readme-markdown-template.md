@@ -99,7 +99,7 @@ Xively CPM provides basic monitoring and control of the demo devices.
 4. In the center frame, select; "CC3200-Demo-DeviceX".
 5. In the center frame, select the "Messaging" tab.
 
-Messages published by the device are displayed in "SHOWING", the following channels are supported: \
+Messages published by the device are displayed in "SHOWING", the following channels are supported:  
 `
 SW_02
 SW_03
@@ -110,7 +110,7 @@ ACCEL
 TEMPERATURE
 `
 
-Messages can be sent to the device using "PUBLISH TO", the following channels are supported: \
+Messages can be sent to the device using "PUBLISH TO", the following channels are supported:  
 `
 LED_GRN_SET 
 LED_YEL_SET 
