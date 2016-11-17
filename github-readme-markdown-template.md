@@ -3,6 +3,11 @@ date or release: 2016/06/20
 
 [comment]: <> (This is a comment, it will not be included in the output as long as there is a blank line above the comment block)
 
+<!---
+your comment goes here
+and here
+-->
+
 The demo project source is available on github: https://github.com/demo-path. Contact Xively with your github username for access to the repo.
 
 ## Development tools
