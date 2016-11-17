@@ -1,18 +1,14 @@
 # Title or Project Name
 date or release: 2016/06/20
 
-[comment]: <> (This is a comment, it will not be included in the output as long as there is a blank line above the comment block)
-
 <!---
-your comment goes here
-and here
+This is a comment. It is not displayed in the output, 
+but it is visible in raw format.
 -->
 
 The demo project source is available on github: https://github.com/demo-path. Contact Xively with your github username for access to the repo.
 
 ## Development tools
-
-[comment]: <> (list the components used to build the project)
 
 The demo was built using the following components:
 * CC3200 SDK: V 1.1.0
@@ -30,7 +26,10 @@ The demo is based on the following SDK examples:
 
 ## Prerequisites
 
-[comment]: <> (list all tools, configurations, licenses, etc needed for this project)
+<!---
+list all tools, configurations, licenses, etc needed for this project
+-->
+
 - TI Code Composer Studio
 - TI CC3200 SDK
 - The WIFI Credentials for each device must be configured for a local WIFI network.
